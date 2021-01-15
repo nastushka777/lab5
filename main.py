@@ -14,6 +14,7 @@ class Refer:
         self.full_name = full_name
         self.grants = grants
         self.where_to = where_to
+        peremen = 12
 
     def __setattr__(self, attr, value):     # установка атрибутов
         if attr == 'number':
